@@ -1,0 +1,7 @@
+print("Tuble Function         :names+nums")
+names=('Mohan','Jegan','Karthi','Bala','Selva')
+nums=(1,2,3,4,5,6,7)
+print("My  Tuble names        :",names)
+print("My  Tuble names        :",nums)
+print("Tuble Methods Value    :",names+nums)
+print("===============================================")
