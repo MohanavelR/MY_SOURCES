@@ -1,0 +1,3 @@
+git diff branchname
+
+not current branchname another branchname

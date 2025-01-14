@@ -1,0 +1,28 @@
+Created file:-
+1.use git clone -copy that repository folder and files
+2.use git status -this Your git files commit or not and tracked or untracted
+check
+3.use git add -This Add staging Area 
+4.use git commit -Add Your Modified in git .not github
+5.git push origin main -This Add Your GitHub main 
+
+Insert --->Add ---> commit ---> push
+
+Modifed :-    
+Add txt --->Add ---> commit ---> push
+
+Delete :-
+Delete file --->Add ---> commit ---> push
+
+6.use git pull -is Any changes in github repository all changes in your editor file
+---------------------------------------------
+7.use git init -is Create empty repository
+8.use git add . -is add all files Modify
+9.git remote add origin (repository origin (HTTPS)) -is connect with repository 
+10.git branch - show branch list
+11.git branch -M Anyname is changes branch name
+12.git checkout branchname this switch branchname
+13.git diff branchname - this get differance between current branch and branchname
+14.git merge branchname - This is merge two branchname
+15.git branch branchname - Create new branch
+16.git pull origin main -This all Modifed main to subBranch

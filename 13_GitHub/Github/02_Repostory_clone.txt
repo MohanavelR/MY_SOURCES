@@ -1,0 +1,9 @@
+Open Github in web browser
+open your repository
+click code 
+copy HTTPS link
+link - origin
+open editor or terminal
+
+comment : git clone link
+
