@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  <!-- style  -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:aqua;
+      color: aqua;
+    }
+    div{
+       display: flex;
+      
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+    a{
+       background-color: rgb(40, 12, 110);
+       color: rgb(199, 203, 214);
+       padding: 20px;
+       margin: 10px 0 20px 0  ;
+       border-radius: 10px;
+       text-decoration: none;
+       text-align:center;
+       font-size: 20px;
+       font-weight: 700;
+       animation:op 1s  ease forwards;
+       opacity: 0;
+       transform: translatey(100px);
+       transform: scale(0.1);
+       margin: 10px 50px 10px 50px;
+
+    }
+    @keyframes op{
+      0%{
+        opacity: 0;
+      }
+      20%{
+        opacity: 0.4;
+        transform: scale(0.2);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+        transform: scale(1);
+      }
+    }
+    a:hover{
+        background-color: rgb(5, 14, 61);   
+    }
+  </style>
+</head>
+<body>
+    <h1 style="color: rgb(22, 18, 100);text-align: center;"> HTML</h1>
+    <div>
+        <!-- <a href="./000_Home.html" class="home">Go Back</a>  -->
+        <a href="./00_comment.html">Comment</a>
+        <a href="./01_Html.html">Introduction</a>
+        <a href="./02_LayOut.html">Layout</a>
+        <a href="./03_Heading.html">Heading Tags</a>
+        <a href="./04_TextFormatting.html">Text Tags</a>
+        <a href="./05_List.html">List Tag</a>
+        <a href="./06_Link.html">Link Tag</a>
+        <a href="./07_elements.html">Element</a>
+        <a href="./08_semantic.html">Semantic tags</a>
+        <a href="./09_Nav_page_1.html">Nav_pages</a>
+        <a href="./10_images.html">images Tag</a>
+        <a href="./11_figure.html">figure Tag</a>
+        <a href="./12_Details_Tag.html">Details Tag</a>
+        <a href="./13_Table.html">Table Tags</a>
+        <a href="./14_Form_Inputs.html">Form and Input</a>
+        <a href="./15_autofocus.html">Auto Focus</a>
+        <a href="./16_Select_Options.html">Select and Options</a>
+        <a href="./17_DataList.html">Datalist</a>
+        <a href="./18_Fieldset.html">Fieldset</a>
+        <a href="./19_Form_submit.html">Submit Action</a>
+        <a href="./20_Marquee.html">Marquee</a>
+    </div>
+</body>
+</html>

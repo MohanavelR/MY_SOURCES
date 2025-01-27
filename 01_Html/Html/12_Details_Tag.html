@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        details{
+            position: relative;
+            width: 200px;
+            padding: 0;
+        }
+        .dropdown{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: rgb(52, 41, 41);
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            border-radius: 10px;
+            color: aliceblue;
+            padding: 2;
+            border-bottom: 1px solid rgb(79, 62, 62);
+        }
+        a:hover{
+            color: blue;  
+            background-color: aqua;
+        }
+    </style>    
+</head>
+<body>
+    <a href="./000_Home.html" class="home">Go Back</a>
+    <h1>Details &lt;details &gt;</h1>
+    <h2>Summary &lt; summary &gt; </h2>
+    &nbsp;&lt;details &gt;<br>
+    &nbsp;&nbsp;&nbsp; &lt;summary&gt;
+     Title
+   &lt;/summary&gt;<br>
+   <ol>
+
+       <li>lists</li>
+       <li>lists</li>
+       <li>lists</li>
+       <li>lists</li>
+   </ol>
+    &nbsp; &lt;/details &gt;
+  
+   <p>Not Only List Any Elements</p>
+    <details>
+        <summary>Programming Languages</summary>
+       <ol>
+        <div class="dropdown">
+            <a href="">HTML</a>
+            <a href="">CSS</a>
+            <a href="">JAVA</a>
+            <a href="">PYTHON</a>
+        </div>
+       </ol>  
+    </details>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      input {
+        padding: 3px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./000_Home.html" class="home">Go Back</a>
+    <h1>Form &lt;form&gt;</h1>
+    &lt;form&gt;
+    <p>input fields and buttons</p>
+    &lt;/form&gt;
+    <dt>attributes</dt>
+    <dd>action : summit button action</dd>
+    <dd>autocomplete : on,off This Previous data sugguestion</dd>
+    <dd>
+      Methods : POST,GET This is send server data .This are post data or get
+      data
+    </dd>
+    <dd>encrypte: This upload files,pdf</dd>
+
+    <form
+      action=""
+      autocomplete=""
+      method=""
+      enctype="multipart/form-data"
+    ></form>
+    <hr />
+    <h1>Inputs &lt;input&gt;</h1>
+    <dt>attributes</dt>
+    <dd>Type  : input field acivity</dd>
+    <dd>min,max,minlenth,maxlength</dd>
+    <dd>value :set default values</dd>
+    <dd>name  : This get data in name backend or frameworks</dd>
+    <dd>placeholder </dd>
+    <dd>Required : This is must fill </dd>
+    <dd>pattarn  :[0-9]{3}[0-9]3 [0-9]4</dd>
+    <dd>step:</dd>
+
+    <h2>Input Types :</h2>
+    <div>
+      <div>
+        <label for="">text</label>
+        <input pattern="[0-9]{3}[0-9]3 [0-9]4" type="text" name="" id="" />
+      </div>
+      <div>
+        <label for="">checkbox</label>
+        <input type="checkbox" name="" id="" />
+      </div>
+      <div>
+        <label for="">color</label>
+        <input type="color" name="" id="" />
+      </div>
+      <div>
+        <label for="">date</label>
+        <input type="date" name="" id="" />
+      </div>
+      <div>
+        <label for="">datetime</label>
+        <input type="datetime" name="" id="" />
+      </div>
+      <div>
+        <label for="">datetime-local</label>
+        <input type="datetime-local" name="" id="" />
+      </div>
+      <div>
+        <label for="">email</label>
+        <input type="email" name="" id="" />
+      </div>
+      <div>
+        <label for="">File</label>
+        <input type="file" name="" id="" />
+      </div>
+      <div>
+        <label for="">image</label>
+        <input type="image" name="" id="" />
+      </div>
+      <div>
+        <label for="">month</label>
+        <input type="month" name="" id="" />
+      </div>
+      <div>
+        <label for="">number</label>
+        <input type="number" name="" id="" />
+      </div>
+      <div>
+        <label for="">Hidden</label>
+        <input type="hidden" name="" id="" />
+      </div>
+      <div>
+        <label for="">password</label>
+        <input type="password" name="" id="" />
+      </div>
+      <div>
+        <label for="">Radio</label>
+        <input type="radio" name="" id="" />
+      </div>
+      <div>
+        <label for="">Range</label>
+        <input type="range" name="" id="" />
+      </div>
+      <div>
+        <label for="">Reset button</label>
+        <input type="reset" name="" id="" />
+      </div>
+      <div>
+        <label for="">search</label>
+        <input type="search" name="" id="" />
+      </div>
+      <div>
+        <label for="">submit button</label>
+        <input type="submit" name="" id="" />
+      </div>
+      <div>
+        <label for="">tel</label>
+        <input type="tel" name="" id="" />
+      </div>
+      <div>
+        <label for="">Time</label>
+        <input type="time" name="" id="" />
+      </div>
+      <div>
+        <label for="">Url</label>
+        <input type="url" name="" id="" />
+      </div>
+      <div>
+        <label for="">Week</label>
+        <input type="week" name="" id="" />
+      </div>
+    </div>
+    <hr />
+    <h1>Label &lt;label &gt;</h1>
+    <dt>attributes</dt>
+    <dd>for : input field id. when you are click lable focus input field</dd>
+    <label for="Username">Username :</label>
+    <input placeholder="Username" type="text" id="Username" />
+  </body>
+</html>

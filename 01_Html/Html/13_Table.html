@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="./000_Home.html" class="home">Go Back</a>
+    <h1>HTML TABLE &lt;table&gt;</h1>
+    <dt>Table Tags</dt>
+    <ol>
+      <li>Table</li>
+      <li>thead</li>
+      <li>tbody</li>
+      <li>th</li>
+      <li>tr</li>
+      <li>td</li>
+      <li>tfoot</li>
+    </ol>
+    <dt>Attribute</dt>
+    <dd>rowspan : This a row span multible rows</dd>
+    <dd>columnpan : This a column span multible columns</dd>
+    <dd>align:center,left,right</dd>
+    <dd>cellpadding</dd>
+     <dd>cellspacing</dd> 
+    <dd>border: set boder</dd>
+    <dd>Scope : This Understanding Search Engines</dd>
+    <!-- ============================= -->
+    <div style="padding: 10px">
+      &lt;table&gt;<br />
+      &nbsp;&lt;thead&gt; <br />
+      &nbsp;&nbsp;&lt;tr&gt; <br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;th&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;th&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;th&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp;&lt;/tr&gt; <br />
+      &nbsp;&lt;/thead&gt; <br />
+      &nbsp;&lt;tbody&gt;<br />
+      &nbsp;&nbsp;&lt;tr&gt; <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;data&lt;/td&gt; <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;data&lt;/td&gt; <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;data&lt;/td&gt; <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;..... <br />
+      &nbsp;&nbsp;&lt;/tr&gt; <br />
+      &nbsp;&lt;/tbody&gt;<br />
+      &nbsp;&lt;tfoot&gt; <br />
+      &nbsp;&nbsp;&lt;tr&gt; <br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;td&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;td&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp; &nbsp;&nbsp;&lt;tc&gt; head &lt;/th&gt;<br />
+      &nbsp;&nbsp;&lt;/tr&gt; <br />
+      &nbsp;&lt;tfoot&gt; <br />
+      &lt;/table&gt;
+    </div>
+    <!-- ============================= -->
+    <table border="1" cellspacing="10px" cellpadding="10px">
+      <caption>
+        Student
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2" colspan="5">Student Information</th>
+        </tr>
+        <tr></tr>
+        <tr>
+          <th scope="col">Name</th>
+          <th>Age</th>
+          <th>college</th>
+          <th>City</th>
+          <th>Adderss</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>Mohan</td>
+          <td>22</td>
+          <td rowspan="3">JKKN</td>
+          <td colspan="2">Salem</td>
+        </tr>
+        <tr>
+          <td>Karthi</td>
+          <td>22</td>
+          <td align="center" colspan="2">Salem</td>
+        </tr>
+        <tr>
+          <td>Bala</td>
+          <td>22</td>
+          <td align="center" colspan="2">Salem</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+  </body>
+</html>
