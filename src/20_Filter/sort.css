@@ -1,0 +1,22 @@
+.product-container-2{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.product-container-2 .card-2{
+    background-color: aquamarine;
+    padding: 10px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+
+}
+.product-container-2 .card-2 .img{
+    background-color: blue;
+    height: 50% ;
+    border-radius: 5px;
+}
+.product-container-2 .card-2 .details .product-name{
+  display: flex;
+  justify-content: space-between;
+}

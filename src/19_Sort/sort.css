@@ -1,0 +1,26 @@
+.filter-input{
+    margin: 40px ;
+    padding: 5px;
+    width: 200px;
+}
+.product-container{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.product-container .card{
+    background-color: aquamarine;
+    padding: 10px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+
+}
+.product-container .card .img{
+    background-color: blue;
+    height: 50% ;
+}
+.product-container .card .details .product-name{
+  display: flex;
+  justify-content: space-between;
+}
