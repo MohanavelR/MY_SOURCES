@@ -1,0 +1,7 @@
+go to views.py in app folder
+create function 
+function argument request and your pass argument name
+go to urls.py add path but 
+path('path/<datatype:your pass arument name >')
+
+

@@ -1,0 +1,4 @@
+- go to app folder
+- create static 
+- that static folder have css,js,image
+ 

@@ -1,0 +1,25 @@
+- go to app folder 
+- create management folder
+- management into create commands
+- define management and commands folder are module 
+- create __init__.py 
+- commands into create python file
+- python into create Command class 
+- class Must be Command
+- class is inheritance BaseCommand
+import BaseCommand
+from django.core.management import BaseCommand
+class function handle override
+
+def handle(self,*arg,**kwargs):
+ data=[]
+ for i in data :
+   model.objects.create()
+ self.stdout.write(self.style.SUCCESS("Completed Inserted Data")) 
+ go to commands __init__.py file
+ import python file Command class 
+ set "as" name
+ after run python manage.py python file name 
+
+
+ 

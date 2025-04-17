@@ -1,0 +1,19 @@
+-- create css file in static folder
+-- go to settings.py create STATICFILES_DIRS=[
+    'appname/static/any others path(folder) /',
+    ..any others example js folder
+]
+example:-
+STATICFILES_DIRS=[
+    'ecommerce/static/css/',
+    'ecommerce/static/js/'
+]
+
+next go to htmlfile
+
+add link for css
+src is {% static 'path/cssfile.css'%}
+
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+and also add {% load static %} htmlfile top

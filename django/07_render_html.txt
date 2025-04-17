@@ -1,0 +1,10 @@
+-go to views.py 
+-create a function
+function parameter "request"
+function is return render
+import render "from django.shortcuts import render"
+render arguments is one that request,"htmlfile.html"
+example :
+  def index(request):
+    return render(request,"index.html")
+set path, go to "first_view.txt file "  for how to set path     

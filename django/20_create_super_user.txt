@@ -1,0 +1,4 @@
+python manage.py createsuperuser
+This Access Admin page
+set username,email,password
+Access path /admin 

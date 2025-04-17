@@ -1,0 +1,11 @@
+-- go to views.py in app
+-- create function for Logout
+-- but function name not use logout
+   first import logout function
+   from django.contrib.auth import logout
+-- function into 
+ call logout function
+ logout argument pass request
+ 
+-- return redirect
+    

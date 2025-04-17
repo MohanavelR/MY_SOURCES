@@ -1,0 +1,4 @@
+django-admin startproject projectname - This created folder into created
+django-admin startproject projectname . - this created current folder
+
+run : python manage.py runserver

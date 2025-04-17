@@ -1,0 +1,43 @@
+ -- go to app in models.py
+ create  a class
+ class inheritance models.Model 
+ you wanted string models.CharField(max_length=0,null=false/true,black=false/true)
+ you wanted int models.IntegerField()
+ you wanted image models.ImageField(upload="path")
+ you wanted slug models.SlugField(unique=True)
+ you wanted datetime models.DateTimeField(auto_add_now=true)
+ you wanted foreignkey models.ForeignKey(foreignkey object,on_delete=models.CASCADE) 
+ ypu wanted boolean models.BooleanField(default=false or true)
+ any set default value 
+
+ override function save
+ save funtion parameter *args,**kwargs
+ save super key pass that arguments
+
+def save(self,*args,**kwargs):
+        self.slug=slugify(self.title)
+        super().save(*args,**kwargs)
+
+ class Product(models.Model):
+    product_name=models.CharField(max_length=100,null=False,blank=False)
+    price=models.CharField(max_length=100,blank=False,null=False)
+    quantity=models.IntegerField(null=False,blank=False)
+    img_url=models.ImageField(null=True,upload_to='product/images')
+    slug=models.SlugField(blank=False,unique=True,null=True)
+    is_trending=models.BooleanField(False)
+    create_at=models.DateTimeField(auto_now_add=True)
+    def save(self,*args,**kwargs):
+         self.slug=slugify(create_slug()+self.product_name)
+         super().save(*args,**kwargs)
+    def __str__(self):
+        return self.product_name
+class Favorites(models.Model):
+    user=models.ForeignKey(User,on_delete=models.CASCADE,null=False)
+    Product=models.ForeignKey(Product,on_delete=models.CASCADE,null=False)
+    create_at=models.DateTimeField(auto_now_add=True)
+    slug=models.SlugField(blank=False,unique=True,null=True)
+    def save(self,*args,**kwargs):
+         self.slug=slugify(create_slug()+self.product_name)
+         super().save(*args,**kwargs)    
+    def __str__(self):
+        return self.product+self.slug         

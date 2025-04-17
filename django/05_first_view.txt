@@ -1,0 +1,15 @@
+- go to app folder views
+- create a function 
+- function parameters must be one any name(request)
+- this first view so simple http response
+- import HttpResponse
+- from django.http import HttpResponse
+- that function  is return HttpResponse("any content")
+- next go to app urls.py already created urlpatterns list
+  add path
+  path import to "from django.urls import path
+-- import app in views file
+from . import views  
+- add list "path("",views.functionname,name=" any related name" )"
+def first_view():
+  return HttpResponse("Hello World !")

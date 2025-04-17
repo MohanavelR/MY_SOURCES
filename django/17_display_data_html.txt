@@ -1,0 +1,5 @@
+{{variable}}
+{% if condition %}
+{% endif %} This is must
+{% for i in list %}
+{% endfor %}

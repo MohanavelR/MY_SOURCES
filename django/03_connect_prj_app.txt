@@ -1,0 +1,7 @@
+- goto settings.py 
+- here INSTALL_APPS=[
+    ..,
+    ..,
+    'appname'
+
+]  

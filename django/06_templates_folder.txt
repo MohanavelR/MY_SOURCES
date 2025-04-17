@@ -1,0 +1,4 @@
+- go to app folder 
+- create folder "templates"
+- create a html file 
+index.html 

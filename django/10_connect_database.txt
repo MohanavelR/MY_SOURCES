@@ -1,0 +1,15 @@
+-- go to settings already here database
+-- engine is  your database engine like mysql ,sqllite..
+-- add NAME:database name 
+-- add "USER":"your database username"
+-- add "PASSWORD":"your database password"
+-- add "HOST":'localhost'
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "ecommerce",
+        "USER":'root',
+        "PASSWORD":'',
+        "HOST":'localhost'
+    }
+}

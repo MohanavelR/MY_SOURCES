@@ -1,0 +1,5 @@
+-go to html file
+path('/<int:id>',function,name='path set name')
+- go to url.py
+-- set app_name='' 
+-a href add{% url 'app_name:path set name' id='value' %}

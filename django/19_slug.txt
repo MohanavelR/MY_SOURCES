@@ -1,0 +1,8 @@
+slug is alternate for id 
+model set slug field
+import slugify
+from django.utils.text import slugify
+ define save()
+  self.slug=slugify(any unique value )
+
+  def save()

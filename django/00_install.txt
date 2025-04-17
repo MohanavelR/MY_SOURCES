@@ -1,0 +1,4 @@
+- create enviroment 
+- activate enviroment
+- pip install django
+ 

@@ -1,0 +1,3 @@
+django have a default user model 
+This is for Authentication
+django.contrib.auth import User

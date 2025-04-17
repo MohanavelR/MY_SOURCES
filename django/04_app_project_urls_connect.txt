@@ -1,0 +1,10 @@
+- go to app folder 
+- create urls.py
+- create urlpatterns list in app in urls.py
+- import path
+- from django.urls import path
+- next go to project urls.py already here urlpatterns add app urls
+- import include
+- from django.urls import include
+- add path for your app
+- path('/'(routing path),include('appname.urls')) 

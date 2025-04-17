@@ -1,0 +1,47 @@
+1.go to templates file create html file 
+  -- create input tags 
+  -- for username,password 
+  -- set tag names
+2.go to app folder
+  -- create forms.py file 
+  -- import forms
+   from django import forms
+  -- forms.py into create class 
+  -- class inheritance forms.Form
+  set fields
+  how many html input same field set
+   username,password
+   forms.Charfield(max_length=0,required=True)
+   ..
+3.You want any change
+  - overide class in "clean" method
+  get data to clean_data['tag name']
+  condition
+4.Throw Error
+  -- raise forms.ValidationError('messages')  
+5.go to views file in app folder
+  import Loginform class 
+  create function for Login
+  but function not use login 
+  condition check 
+  if req.method=="post":
+   login forms class pass arg req.POST
+   store class value
+   "form=Login_form(req.POST)"
+    and check
+    form.is_valid():
+     this Valid 
+     import authenticate function
+     from django.contrib.auth import authenticate
+     get username in form
+     use clean_data['tag name'] 
+     pass arguments to authenticate
+     "user=authenticate(username=username,password=password)"
+     store that value
+     check condition
+     is not none
+     import login
+     from django.contrib.auth import login 
+     pass arguments
+     login(req,user)
+    

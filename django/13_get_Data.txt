@@ -1,0 +1,4 @@
+modelsname.objects.all()-get all data from database return list
+modelsname.objects.filter()-get condition based data from database return list
+modelsname.objects.get()-get condition based data from database return dist
+
