@@ -1,0 +1,3 @@
+commend: db.connectionname.find().You can Access  js list function
+
+find().forEach()

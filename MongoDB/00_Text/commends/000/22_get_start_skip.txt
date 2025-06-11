@@ -1,0 +1,3 @@
+commend : db.connectionname.find().skip(2)
+
+skip the starting to Your Value value 

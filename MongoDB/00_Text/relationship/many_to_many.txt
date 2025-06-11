@@ -1,0 +1,17 @@
+created two collections
+collection-2   should  have collection-1 id 
+
+db.collection-1.aggregate([
+    {
+        $lookup:{
+          $from:" collection-2 name",
+          localField:"products",
+          foreignField:"_id",
+          as:"anyfieldname"
+        }
+    }
+])
+
+
+]
+

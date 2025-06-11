@@ -1,0 +1,8 @@
+commend: db.collectionname.findOne()
+
+This Display only one data
+
+based on your condition
+
+if don't give condition This display First data
+

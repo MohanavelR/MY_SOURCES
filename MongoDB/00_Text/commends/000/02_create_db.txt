@@ -1,0 +1,10 @@
+commend : use databasename
+
+This commend already here This swiched That database
+or Not Create and switched That Database
+
+execute commend "show dbs"
+That time Not Show When insert collection and data That is Created database
+
+This Time execute "show dbs"
+show database 

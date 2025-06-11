@@ -1,0 +1,5 @@
+commend : db.collectionname
+.updateOne({fieldnamekey:value},{$set:{fieldnamekey:updatevalue}})
+updateOne({fieldnamekey:value}this condition which one you update,{$set:{fieldnamekey:updatevalue} which key and update value })
+ex:
+db.emp.updateOne({name:"Selvakumar"},{$set:{"details.salary":90000}})

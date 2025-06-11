@@ -1,0 +1,2 @@
+commend : db.collectionname.findOne({fieldname:condition})
+

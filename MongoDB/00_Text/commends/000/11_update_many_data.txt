@@ -1,0 +1,7 @@
+commend : db.collectionname.updateMany()
+
+This same updateOne but update condition satified all data
+
+ex:
+db.emp.updateMany({"details.role":"Backend developer"},
+{$set:{"details.salary":100000}})

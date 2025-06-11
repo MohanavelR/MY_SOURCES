@@ -1,0 +1,8 @@
+commend : db.createCollection("collectionname",{
+  size:bytesize,
+  max:max_count,
+  etc...
+})
+
+
+

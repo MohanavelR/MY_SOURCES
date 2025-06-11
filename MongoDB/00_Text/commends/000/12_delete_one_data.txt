@@ -1,0 +1,3 @@
+commend : db.collectionname.deleteOne({fieldnamekey:value})
+
+db.emp.deleteOne({name:"Mohan"})

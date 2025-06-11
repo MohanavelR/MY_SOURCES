@@ -1,0 +1,4 @@
+commend : db.connectionname.find().sort({key:1})
+This Asecnding Order
+commend : db.connectionname.find().sort({key:-1})
+decending order

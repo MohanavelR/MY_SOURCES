@@ -1,0 +1,3 @@
+db.emp.find({$and:[{condition},{condition}]})
+
+db.emp.find({$and:[{key:{$lte:80000}},{key:{$gte:70000}}]})

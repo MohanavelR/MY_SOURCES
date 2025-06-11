@@ -1,0 +1,2 @@
+commend : db.connectionname.find({key:{$regex:"^startwithletter",$options:
+'i'}})

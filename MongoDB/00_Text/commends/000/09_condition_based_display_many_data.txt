@@ -1,0 +1,5 @@
+commend : db.collectionname.find({key:condition})
+
+if key is nested 
+
+commend : db.collectionname.find({"key.nestedkey":condition})

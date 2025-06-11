@@ -1,0 +1,9 @@
+commend : db.connectionname.find({},{name:1})
+
+You Want value All key:1
+you don't want value key:0
+
+you don't want value key:0 not neccesary 
+
+already Display only key:1
+but _id always Display you don't want give _id:0

@@ -1,0 +1,2 @@
+MongoDB is a Database
+Mongo came from Homongous 

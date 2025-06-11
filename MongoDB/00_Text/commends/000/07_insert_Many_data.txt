@@ -1,0 +1,3 @@
+command : db.collectionname.insertMany([
+
+])

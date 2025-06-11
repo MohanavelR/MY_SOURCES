@@ -1,0 +1,3 @@
+commend : db.collectionname.find()
+
+This Show All data

@@ -1,0 +1,10 @@
+Mongo               |       Mysql
+----------------------------------------
+Giving server       | also giving server
+----------------------------------------
+group of data store | tables
+called collections  |
+----------------------------------------
+store data documents| columns
+types Json Documents|
+----------------------------------------                  

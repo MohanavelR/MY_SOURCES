@@ -1,0 +1,11 @@
+1.insertOne() This is insert one data
+2.insertMany() This At the same time insert two or More data 
+3.findOne() Display one data
+4.find() Display Many data
+5.updateOne() update one data
+6.updateMany() update at time two or More
+7.deleteOne() delete one data
+8.deleteMany() delete Many data
+9.find().toArray() get All data
+10.find().limit(2) get limit data
+11.find().skip(2) skip start to 2 data

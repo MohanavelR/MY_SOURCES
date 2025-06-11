@@ -1,0 +1,3 @@
+commend : db.collectionname.deleteMany({key:value})
+
+db.emp.deleteMany({"details.role":"Backend developer"})

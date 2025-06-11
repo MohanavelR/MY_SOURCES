@@ -1,0 +1,7 @@
+commend : db.connectionname.find({$where:jsfunction})
+
+
+db.emp.find({$where:function(){ return this.name=="Karthick" }})
+
+nested value this not work
+
