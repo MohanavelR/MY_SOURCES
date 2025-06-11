@@ -1,0 +1,7 @@
+user(browser) --> http://sample.com --> Domain Look up --> request(ip adderss)
+   |                    |-----------------------------------------| |
+   |                                        Direct Access Ip       \|/
+   |---------- Response(Html,json,Xml)<--------------------- server(17.40.55.54)
+                                                                     
+                                                                     
+                                                              

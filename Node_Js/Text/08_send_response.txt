@@ -1,0 +1,7 @@
+You Create a Server 
+
+This Time response
+
+set res.setHeader("key","value")
+ex:res.setHeader("Content-type","text/html")
+res.write("Html or text")

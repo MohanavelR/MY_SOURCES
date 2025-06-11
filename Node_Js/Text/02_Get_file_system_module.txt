@@ -1,0 +1,11 @@
+require()
+
+This Function get Node Module
+
+file system name is 'fs'
+
+require('fs')
+
+store This Value 
+
+const fs=require('fs')

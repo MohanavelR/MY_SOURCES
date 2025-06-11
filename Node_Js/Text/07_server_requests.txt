@@ -1,0 +1,11 @@
+console The request 
+
+displaying  Some Content
+
+You can Access req.method,url,headers..
+===============================================
+const http=require('http')
+const server=http.createServer((req,res)=>{
+    console.log(req)
+})
+server.listen(4000)

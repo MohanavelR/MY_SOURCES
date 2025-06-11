@@ -1,0 +1,20 @@
+Import http 
+
+get require('http')
+
+http.createServer()
+
+That Function arguments Must Two,
+1.request
+2.response
+
+You set Any Name that arguments
+
+==========================
+
+const http=require('http')
+const server=http.createServer((req,res)=>{
+    console.log('Requested Method :',req.method)
+})
+server.listen(4000)
+

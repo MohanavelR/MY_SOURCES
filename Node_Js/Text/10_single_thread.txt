@@ -1,0 +1,6 @@
+code --> single thread --->Event Loop<--------|   trigger callback (it is finished)        
+            |                                 |
+            |--->fs----------------------->worker pool 
+                    if is big process         |
+                                             \|/
+                                             Multiple Threads handle file read/write

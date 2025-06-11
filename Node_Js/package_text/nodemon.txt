@@ -1,0 +1,22 @@
+run : nodemon jsfile.js 
+
+set package.json
+This "scripts":{
+    "start":"nodemon jsfile.js"
+}
+Only This Way work not direct use
+
+ex: Terminal open
+ nodemon js.js
+ This doesn't work 
+
+
+ if npm install nodemon -g 
+ This Work All place 
+
+ uses:
+   once run nodemon jsfile.js
+   when change that jsfile.js 
+   This Automatically re-run That file 
+
+

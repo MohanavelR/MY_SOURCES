@@ -1,0 +1,8 @@
+ ---------|
+/|\       |
+ |        |
+ |--------|
+ Event Loop 
+ This first Excute SetTimeOut,set Intervel callbacks
+ 2.Excute I/O related callbacks
+ 3.Retrive new I/O 

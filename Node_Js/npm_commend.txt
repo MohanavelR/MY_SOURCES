@@ -1,0 +1,20 @@
+"npm init" This is create package
+"npm install <pkg> --save  " This Production dependencies
+"npm install <pkg> --save-dev  " This Development dependencies
+"npm install <pkg> -g " This set Computer 
+
+go to package.json
+here scripts{
+"start":"Your Commend"
+
+}
+Now You can run "npm start"
+ start is default so use npm start
+ but user define use npm run "Commend"
+
+ scripts:{
+    "anyCommendname":"Your commend"
+ }
+
+
+

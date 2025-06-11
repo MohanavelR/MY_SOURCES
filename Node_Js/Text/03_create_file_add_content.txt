@@ -1,0 +1,5 @@
+get fs
+
+use fs in writeFileSync Function
+fs.writeFileSync("path/anyname.txt","any content")
+ 
