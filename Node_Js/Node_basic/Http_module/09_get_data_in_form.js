@@ -13,11 +13,13 @@ else if (req.url==="/message"){
     // This reason Why node called Event Driven
     // Also called Non Blocking
     req.on("data",(data)=>{ // Async Function
-        body.push(data)
+        console.log(data)
+        body.push(data)    
     })
   return req.on('end',()=>{  // Async Function
         let write_value=''
         const parse= Buffer.concat(body).toString()
+        console.log(parse)
         let value=(parse.split("=")[1].split("+"))
         value.forEach((data)=>{
                write_value+=data+" "

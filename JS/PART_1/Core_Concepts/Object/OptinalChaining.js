@@ -34,7 +34,10 @@ let user_details={
 }
 // let birth=user_details.account.holder.profile.Bob
 // console.log("Date of Birth :",birth)
-birth=user_details.account && user_details.account.holder && user_details.account.holder.profile&&user_details.account.holder.profile.Bob
+birth=user_details.account && 
+user_details.account.holder && 
+user_details.account.holder.profile&&
+user_details.account.holder.profile.Bob
 console.log("Date of Birth :",birth)
 birth=user_details?.account?.holder?.profile?.Bob
 console.log("Date of Birth :",birth)
